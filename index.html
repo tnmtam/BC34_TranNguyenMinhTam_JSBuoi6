@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập JS buổi 6</title>
+    <!-- Bootstrap CSS v5.2.0-beta1 -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+</head>
+<body>
+      <!-- BT1 -->
+      <div class="d-flex justify-content-center">
+        <div class="card w-50">
+          <div class="card-header bg-dark text-white text-center fw-bold fs-2">
+            Tìm số nguyên dương nhỏ nhất
+          </div>
+          <div class="card-body fs-2">
+            <p>Số nguyên dương nhỏ nhất với điều kiện 1 + 2 + ... + n > 10000</p>
+          </div>
+          <div class="card-footer text-center">
+            <button class="btn btn-secondary fw-bold fs-4" id="btnKQ">
+              Xem kết quả
+            </button>
+            <div class="mt-2 fs-3" id="showInfor"></div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <hr>
+      <br>
+      <!-- BT2 -->
+      <div class="d-flex justify-content-center">
+        <div class="card w-50">
+          <div class="card-header bg-dark text-white text-center fw-bold fs-2">
+            Tính tổng
+          </div>
+          <div class="card-body fs-2 d-flex">
+            <input class="form-control w-25 fs-3 me-4" type="number" placeholder="Nhập số x" id="numberX">
+            <input class="form-control w-25 fs-3" type="number" placeholder="Nhập số n" id="numberN">
+          </div>
+          <div class="card-footer text-center">
+            <button class="btn btn-info fw-bold fs-4" id="btnSum">
+              Tính tổng
+            </button>
+            <div class="mt-2 fs-3" id="showTong"></div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <hr>
+      <br>
+      <!-- BT3 -->
+      <div class="d-flex justify-content-center">
+        <div class="card w-50">
+          <div class="card-header bg-dark text-white text-center fw-bold fs-2">
+            Tính giai thừa
+          </div>
+          <div class="card-body fs-2">
+            <input class="form-control w-25 fs-3 me-4" type="number" placeholder="Nhập số n" id="number">
+          </div>
+          <div class="card-footer text-center">
+            <button class="btn btn-secondary fw-bold fs-4" id="btnGT">
+              Tính
+            </button>
+            <div class="mt-2 fs-3" id="ketQua"></div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <hr>
+      <br>
+      <!-- BT4 -->
+      <div class="d-flex justify-content-center">
+        <div class="card w-50">
+          <div class="card-header bg-dark text-white text-center fw-bold fs-2">
+            Tạo thẻ Div tô màu theo số chẵn, lẻ
+          </div>
+          <div class="card-body fs-2">
+            <div class="mt-2 fs-3" id="theDiv"></div>
+          </div>
+          <div class="card-footer text-center">
+            <button class="btn btn-success fw-bold fs-4" id="btnDiv">
+              Tạo thẻ
+            </button>
+          </div>
+        </div>
+      </div>
+      <br>
+      <hr>
+      <br>
+
+    <script src="./main.js"></script>
+</body>
+</html>
