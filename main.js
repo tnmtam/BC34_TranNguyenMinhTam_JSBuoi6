@@ -25,7 +25,7 @@ document.getElementById('btnSum').onclick = function() {
     var n = document.getElementById('numberN').value * 1;
     //process
     var s = 0;
-    for(i = 1; i = n; i++) {
+    for(i = 1; i <= n; i++) {
         s += Math.pow(x, i);  
     }
     //output
@@ -59,9 +59,18 @@ document.getElementById('btnGT').onclick = function() {
 
 document.getElementById('btnDiv').onclick = function() {
     //input
-
-    //process
-
+    var soChan = "";
+    var soLe = "";
+    var content = "";
+    //process   
+    for(i = 1; i <= 10; i++) {
+        if(i % 2 === 0) {
+            content += "<div class='bg-danger'><div class='ms-3'> Div chắn </div></div>";
+        }else {
+            content += "<div class='bg-info'><div class='ms-3'> Div lẻ </div></div>";
+        }
+    }
     //output
-    
+    document.getElementById('theDiv').innerHTML = content;
+    document.getElementById('theDiv').style.color = "White";
 }
